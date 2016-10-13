@@ -14,14 +14,14 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY JAMF SOFTWARE, LLC "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JAMF SOFTWARE, LLC BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ___
-WhatsMyIP.sh will show the users current Local and External IP Addresses.
+savehollywood_post_script.py will automatically change the ByHost folder named plists with scoped computer UUID.
 
-This script was designed to be made available via Self Service to aid in end-user support.
+You DO NOT need to modify the script, there are no needed variables.
 
 Requirements:
-* Computer must be enrolled in the Casper Suite since the display utilizes the jamfHelper.
+* SaveHollywood deployment DMG created via snapshot with SaveHollywood added ~/Library/Preferences/ByHost plists.
 
 
-Written by: Joshua Roskos | Professional Services Engineer | JAMF Software
+Written by: Jonathan Yuresko | Professional Services Engineer | JAMF Software
 
-Created On: August 9th, 2016 | Updated On: August 9th, 2016
+Created On: October 13th, 2016 | Updated On: October 13th, 2016
